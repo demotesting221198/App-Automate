@@ -21,8 +21,14 @@ public class Appium {
 		      
 		      // Set your access credentials
 		      DesiredCapabilities caps = new DesiredCapabilities();
+
 	  	      String username = System.getenv("BROWSERSTACK_USERNAME");
 		      String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+
+			 String username = System.getenv("BROWSERSTACK_USERNAME");
+			 String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+			
+
 		      
 		      
 		      // Set URL of the application under test
