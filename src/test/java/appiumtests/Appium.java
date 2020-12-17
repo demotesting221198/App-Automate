@@ -21,8 +21,8 @@ public class Appium {
 		      
 		      // Set your access credentials
 		      DesiredCapabilities caps = new DesiredCapabilities();
-			  caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+			 String username = System.getenv("BROWSERSTACK_USERNAME");
+			 String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 		      
 		      
 		      // Set URL of the application under test
