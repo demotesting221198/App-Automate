@@ -59,7 +59,7 @@ public class Appium {
 		      //AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
 		      //new URL("http://hub.browserstack.com/wd/hub"), caps);
 		      
-			  driver = new AndroidDriver(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub", caps);
+			  driver = new AndroidDriver(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub", caps));
 
 		      JavascriptExecutor jse = (JavascriptExecutor)driver;
 		        
