@@ -24,6 +24,7 @@ public class Appium {
 			
 		      String userName = System.getenv("BROWSERSTACK_USERNAME");
 			  String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+			  String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
 
 		      
 		      
@@ -34,7 +35,7 @@ public class Appium {
 		       caps.setCapability("device", "Samsung Galaxy S8 Plus");
    			   caps.setCapability("os_version", "7.0");
     		   caps.setCapability("project", "My First Project");
-    		   caps.setCapability("build", "My First Build");
+    		   capabilities.setCapability("build", buildName);
     		   caps.setCapability("name", "Bstack-[Java] Sample Test");
 		        
 		      // Set other BrowserStack capabilities
