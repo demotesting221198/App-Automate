@@ -35,7 +35,7 @@ public class Appium {
 		       caps.setCapability("device", "Samsung Galaxy S8 Plus");
    			   caps.setCapability("os_version", "7.0");
     		   caps.setCapability("project", "My First Project");
-    		   capabilities.setCapability("build", buildName);
+    		   caps.setCapability("build", buildName);
     		   caps.setCapability("name", "Bstack-[Java] Sample Test");
 		        
 		      // Set other BrowserStack capabilities
