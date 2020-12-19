@@ -35,23 +35,12 @@ public class Appium {
 		      caps.setCapability("os_version", "9.0");
 		        
 		      // Set other BrowserStack capabilities
-		      caps.setCapability("project", "Amazon");
 		      
-		      caps.setCapability("build", "V1.1");
 		      
-		      caps.setCapability("name", "Amazon's Script");
 		      
-		      caps.setCapability("browserstack.appium_version", "1.7.1");
 		      
-		      caps.setCapability("browserstack.local", "false");
 		      
-		      caps.setCapability("browserstack.networkLogs", "true");
 		      
-		      caps.setCapability("browserstack.networkProfile", "4g-lte-good");
-		      
-		      caps.setCapability("browserstack.console", "warnings");
-		      
-		      caps.setCapability("browserstack.timezone", "Kolkata");
 		        
 		      
 		      // Initialise the remote Webdriver using BrowserStack remote URL
