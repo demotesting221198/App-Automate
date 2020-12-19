@@ -31,8 +31,11 @@ public class Appium {
 		      
 		      
 		      // Specify device and os_version for testing
-		      caps.setCapability("device", "Google Pixel 3");
-		      caps.setCapability("os_version", "9.0");
+		       caps.setCapability("device", "Samsung Galaxy S8 Plus");
+   			   caps.setCapability("os_version", "7.0");
+    		   caps.setCapability("project", "My First Project");
+    		   caps.setCapability("build", "My First Build");
+    		   caps.setCapability("name", "Bstack-[Java] Sample Test");
 		        
 		      // Set other BrowserStack capabilities
 		      
@@ -40,7 +43,7 @@ public class Appium {
 		      
 		      
 		      
-		      
+		      caps.setCapability("app", "bs://69e379f54a143f15cc94905ec168425ba6e4c54f");
 		        
 		      
 		      // Initialise the remote Webdriver using BrowserStack remote URL
