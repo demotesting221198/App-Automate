@@ -28,7 +28,7 @@ public class Appium {
 		      
 		      
 		      // Set URL of the application under test
-		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
+		      
 		      
 		      // Specify device and os_version for testing
 		      caps.setCapability("device", "Google Pixel 3");
