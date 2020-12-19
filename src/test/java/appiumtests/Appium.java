@@ -22,8 +22,8 @@ public class Appium {
 		      // Set your access credentials
 		      DesiredCapabilities caps = new DesiredCapabilities();
 			
-		      caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+		      String userName = System.getenv("BROWSERSTACK_USERNAME");
+			  String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 
 		      
 		      
@@ -56,9 +56,11 @@ public class Appium {
 		      
 		      // Initialise the remote Webdriver using BrowserStack remote URL
 		      // and desired capabilities defined above
-		      AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
-		      new URL("http://hub.browserstack.com/wd/hub"), caps);
+		      //AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
+		      //new URL("http://hub.browserstack.com/wd/hub"), caps);
 		      
+			  driver = new AndroidDriver(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub", caps);
+
 		      JavascriptExecutor jse = (JavascriptExecutor)driver;
 		        
 
