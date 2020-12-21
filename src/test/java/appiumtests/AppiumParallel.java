@@ -27,8 +27,8 @@ public class AppiumParallel {
 		     
 		      
 		      // Set your access credentials
-		      caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+		      caps.setCapability("browserstack.user", "bhagyeshnanwani4");
+		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
 		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
@@ -123,8 +123,8 @@ public class AppiumParallel {
 		     
 		      
 		      // Set your access credentials
-		      caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+		      caps.setCapability("browserstack.user", "bhagyeshnanwani4");
+		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
 		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
@@ -218,8 +218,8 @@ public class AppiumParallel {
 		     
 		      
 		      // Set your access credentials
-		      caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+		      caps.setCapability("browserstack.user", "bhagyeshnanwani4");
+		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
 		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
@@ -313,8 +313,8 @@ public class AppiumParallel {
 		     
 		      
 		      // Set your access credentials
-		      caps.setCapability("browserstack.user", "demotesting4");
-		      caps.setCapability("browserstack.key", "j9hzk38LRuEQwB8coPqC");
+		      caps.setCapability("browserstack.user", "bhagyeshnanwani4");
+		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
 		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
