@@ -31,7 +31,7 @@ public class AppiumParallel {
 		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
-		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
+		      caps.setCapability("app", "bs://69e379f54a143f15cc94905ec168425ba6e4c54f");
 		      
 		      // Specify device and os_version for testing
 		      caps.setCapability("device", "Google Pixel 3");
@@ -127,7 +127,7 @@ public class AppiumParallel {
 		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
-		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
+		      caps.setCapability("app", "bs://69e379f54a143f15cc94905ec168425ba6e4c54f");
 		      
 		      // Specify device and os_version for testing
 		      caps.setCapability("os_version", "8.0");
@@ -222,7 +222,7 @@ public class AppiumParallel {
 		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
-		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
+		      caps.setCapability("app", "bs://69e379f54a143f15cc94905ec168425ba6e4c54f");
 		      
 		      // Specify device and os_version for testing
 		      caps.setCapability("os_version", "9.0");
@@ -317,7 +317,7 @@ public class AppiumParallel {
 		      caps.setCapability("browserstack.key", "bQc9V5scoYwsAqxRnUvc");
 		      
 		      // Set URL of the application under test
-		      caps.setCapability("app", "bs://add37755095121b49bbd6b84f00185d6f3557977");
+		      caps.setCapability("app", "bs://69e379f54a143f15cc94905ec168425ba6e4c54f");
 		      
 		      // Specify device and os_version for testing
 		      caps.setCapability("os_version", "9.0");
