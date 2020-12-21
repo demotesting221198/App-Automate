@@ -136,7 +136,7 @@ public class AppiumParallel {
 		      // Set other BrowserStack capabilities
 		      caps.setCapability("project", "Amazon");
 		      
-		      caps.setCapability("build", "V1.2");
+		      caps.setCapability("build", "V1.1");
 		      
 		      caps.setCapability("name", "Amazon's Script");
 		      
@@ -232,7 +232,7 @@ public class AppiumParallel {
 		      // Set other BrowserStack capabilities
 		      caps.setCapability("project", "Amazon");
 		      
-		      caps.setCapability("build", "V1.3");
+		      caps.setCapability("build", "V1.1");
 		      
 		      caps.setCapability("name", "Amazon's Script");
 		      
@@ -327,7 +327,7 @@ public class AppiumParallel {
 		      // Set other BrowserStack capabilities
 		      caps.setCapability("project", "Amazon");
 		      
-		      caps.setCapability("build", "V1.4");
+		      caps.setCapability("build", "V1.1");
 		      
 		      caps.setCapability("name", "Amazon's Script");
 		     
