@@ -83,8 +83,21 @@
   </plugins>
  
  
- </build>
+ 
+ 
+ 
+ 
   
+</project>
+	 
+	 
+	 
+ </build>
+	
+	
+	
+  
+
 <profiles>
     <profile>
       <id>Single</id>
@@ -154,4 +167,6 @@
 
 
 
+
 </project>
+
