@@ -14,6 +14,11 @@ import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Appium {
+
+	 public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
+	  
+	 public static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
+
 	
 	@Test
 	public void AppiumTest() throws MalformedURLException, InterruptedException {
@@ -22,9 +27,9 @@ public class Appium {
 		      // Set your access credentials
 		      DesiredCapabilities caps = new DesiredCapabilities();
 			
-		      String userName = System.getenv("BROWSERSTACK_USERNAME");
-			  String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
-			  String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
+		      //String userName = System.getenv("BROWSERSTACK_USERNAME");
+			  //String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+			  
 
 		      
 		      
@@ -35,7 +40,7 @@ public class Appium {
 		       caps.setCapability("device", "Samsung Galaxy S8 Plus");
    			   caps.setCapability("os_version", "7.0");
     		   caps.setCapability("project", "My First Project");
-    		   caps.setCapability("build", buildName);
+    		   caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
     		   caps.setCapability("name", "Bstack-[Java] Sample Test");
 		        
 		      // Set other BrowserStack capabilities
@@ -52,7 +57,7 @@ public class Appium {
 		      //AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
 		      //new URL("http://hub.browserstack.com/wd/hub"), caps);
 		      
-			   AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), caps);
+			   AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("https://"+USERNAME+":"+ACCESS_KEY+"@hub-cloud.browserstack.com/wd/hub"), caps);
 
 		      JavascriptExecutor jse = (JavascriptExecutor)driver;
 		        
