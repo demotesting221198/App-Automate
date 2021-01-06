@@ -40,7 +40,7 @@ public class AppiumParallel {
 		      // Set other BrowserStack capabilities
 		      caps.setCapability("project", "Amazon");
 		      
-		      caps.setCapability("build", "V1.1");
+		      caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 		      
 		      caps.setCapability("name", "Amazon's Script");
 		      
